@@ -5,10 +5,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-bold" href="#">FoodStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CART</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROFILE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./signup.html">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="hero">
+        <div class="grey">
+            <div style="margin: 0 20vh;">
+                <div class="fs-1 mb-3">
+                    It's not just food it's an Experience!
+                </div>
+                <div class="mb-3">
+                    The best delicious food that meet your needs, order now
+                </div>
+                <button class="btn rounded-pill">Order now</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="m-5">
+        <h2 class="text-center my-4">
+            Order Fresh Food
+        </h2>
+        <div class="row">
+            <!-- Card -->
+            <div class="col-xl-3  col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/close-up-of-a-bao-bun-on-a-wooden-table.jpg"
+                        class="card-img-top object-fit-fill size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Bao Bun</h3>
+                            <div>&#8377; 100</div>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.3)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col-xl-3  col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/avocado-toast.jpg" class="card-img-top size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Avacardo Toast</h3>
+                            <span>&#8377; 130</span>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.2)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/ramen-noodles-kitchen-and-cooking.jpg"
+                        class="card-img-top object-fit-fill size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Ramen Noodles</h3>
+                            <div>&#8377; 180</div>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col-xl-3  col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/jennifer-schmidt-zOlQ7lF-3vs-unsplash.jpg" class="card-img-top size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Vietnamese Pho</h3>
+                            <span>&#8377; 200</span>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/ramen-noodles-kitchen-and-cooking.jpg"
+                        class="card-img-top object-fit-fill size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Ramen Noodles</h3>
+                            <div>&#8377; 180</div>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col-xl-3  col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/jennifer-schmidt-zOlQ7lF-3vs-unsplash.jpg" class="card-img-top size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Vietnamese Pho</h3>
+                            <span>&#8377; 200</span>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card -->
+            <div class="col-xl-3  col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/sehajpal-singh-ZT9wGLDEVNs-unsplash.jpg" class="card-img-top size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Gyoza</h3>
+                            <span>&#8377; 150</span>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.7)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card -->
+            <div class="col-xl-3  col-md-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <img src="assets/close-up-of-a-bao-bun-on-a-wooden-table.jpg"
+                        class="card-img-top object-fit-fill size-50" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class=" card-title">Bao Bun</h3>
+                            <div>&#8377; 100</div>
+                        </div>
+                        <p class="card-text">Short description of the product.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn">Add to Cart</button>
+                            <span class="text-muted">★(4.3)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
